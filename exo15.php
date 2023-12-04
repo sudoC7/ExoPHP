@@ -18,6 +18,8 @@ class controlmail {
         $this->_controlMail;
         
     }
+
+    // changements
     
     public function controle() {
         $this->_controlMail = filter_var($this->_mail, FILTER_SANITIZE_EMAIL);
